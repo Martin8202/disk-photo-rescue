@@ -1,0 +1,26 @@
+# 狀態與資料，不進版本控制
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.img
+*.map
+*.map.bak*
+*.log
+
+# 執行過程產生的紀錄
+進度回報.txt
+進度紀錄.log
+ddrescue_copy_輸出.txt
+ddrescue_自動接續紀錄.txt
+ddrescue_自動接續_stdout.txt
+ddrescue批次報告_*.txt
+壞軌紀錄.csv
+*.xlsx
+
+# 憑證，絕對不要提交
+askpass.cmd
+share-password.txt
+known_hosts_vm
+
+__pycache__/
+*.pyc

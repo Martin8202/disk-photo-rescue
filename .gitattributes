@@ -1,0 +1,8 @@
+* text=auto
+
+# bash 腳本一定要 LF，CRLF 會讓 bash 解析失敗
+*.sh text eol=lf
+
+# Windows 批次檔一定要 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
